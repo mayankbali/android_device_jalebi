@@ -89,3 +89,6 @@ BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
 # inherit from the proprietary version
 -include vendor/yu/jalebi/BoardConfigVendor.mk
+
+# Inherit from proprietary files
+include vendor/yu/jalebi/BoardConfigVendor.mk

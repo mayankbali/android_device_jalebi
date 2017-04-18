@@ -162,3 +162,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit the rest from msm8916-common
 $(call inherit-product, device/qcom/msm8916-common/msm8916.mk)
+
+# Call the proprietary setup
+$(call inherit-product, vendor/yu/jalebi/jalebi-vendor.mk)
