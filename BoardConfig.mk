@@ -15,7 +15,7 @@
 
 FORCE_32_BIT := true
 
-include device/qcom/msm8916-common/BoardConfigCommon.mk
+include device/cyanogen/msm8916-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/yu/jalebi
 
@@ -24,7 +24,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 # Kernel
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
-TARGET_KERNEL_CONFIG := jalebi_defconfig
+TARGET_KERNEL_CONFIG := lineage_jalebi_defconfig
 
 # Bootchart
 ifeq ($(strip $(INIT_BOOTCHART)),true)
