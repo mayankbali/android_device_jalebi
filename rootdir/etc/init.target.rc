@@ -74,7 +74,7 @@ on charger
 service vm_bms /system/bin/vm_bms
     class core
     user root
-    group root
+    group root wakelock
 
 service ims_rtp_daemon /system/bin/ims_rtp_daemon
    class main
